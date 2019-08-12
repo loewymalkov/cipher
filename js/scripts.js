@@ -4,6 +4,7 @@ $(document).ready(function() {
   var enterSentence = prompt('Please enter a sentence');
 //  $('p').text(enterSentence);
   console.log('prompt');
+  // EVERYTHING BELOW PROMPT NEEDS FIXED
   var firstLast = (function(sentence) {
     return sentence.charAt(0).toUpperCase() + sentence.charAt(-1).toUpperCase();
     console.log('function1');
